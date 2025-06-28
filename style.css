@@ -5,11 +5,8 @@ body{
 
 .container{
     position: absolute;
-    left:800px;
+    left:650px;
     display:flex;
-    
-
-   
 }
 
 .profile{
@@ -17,20 +14,18 @@ body{
     height: 700px;
     object-fit:cover;
     border-radius: 20%;
-    margin-left: 20px;
-
+    margin-left: 10px;
+    margin-top: 70px;
 }
 
 .box{
     background-color: white;
-    height: 1100px;
-    width: 700px;
+    height: 1200px;
+    width: 600px;
     border-bottom-right-radius:100px ;
     border-top-left-radius:100px ;
-    margin-left: 70px;
+    margin-left: 20px;
     margin-top: 40px;
-
-    
 }
 
 .context{
@@ -74,8 +69,6 @@ body{
     cursor: pointer;
     transition:  transform 0.5s ease;
     transition: box-shadow 0.4s ease border-color 0.4s ease ;
-    
-
 }
 
 .action:hover{
@@ -84,17 +77,12 @@ body{
     transform: scale(1.2);
     box-shadow: 0 0 15px rgb(52, 59, 59), 0 0 25px  rgb(52, 59, 59) ;
     border-color:  rgb(52, 59, 59);
-
 }
 
-.action:active{
-   top:500px;
-}
 
 #name{
     margin-left: 5px;
     margin-right: 40px;
-    
 }
 
 #state{
@@ -123,4 +111,9 @@ body{
 
     label{
         font-size: 20px;
+    }
+
+    .special{
+         font-weight: bolder;
+
     }
